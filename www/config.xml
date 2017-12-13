@@ -14,8 +14,8 @@
 	<preference name="phonegap-version" value="cli-7.0.1" />
 
 	<platform name="ios">
-		<edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
-            <string>Allows users to save photos to their camera roll</string>
-        </edit-config>
+		<config-file parent="NSCameraUsageDescription" target="*-Info.plist">
+	        <string>Allows users to save photos to their camera roll</string>
+	    </config-file>
 	</platform>
 </widget>
