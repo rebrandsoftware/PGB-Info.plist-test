@@ -17,21 +17,5 @@
 		<edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
             <string>Allows users to save photos to their camera roll</string>
         </edit-config>
-        
-        <edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
-            <string>Allows users use photos they took outside the app</string>
-        </edit-config>
-        
-        <edit-config target="NSCalendarsUsageDescription" file="*-Info.plist" mode="merge">
-            <string>Adds interactivity to some advertisements</string>
-        </edit-config>
-        
-        <edit-config target="UIStatusBarHidden" file="*-Info.plist" mode="merge">
-            <true/>
-        </edit-config>
-        
-        <edit-config target="UIViewControllerBasedStatusBarAppearance" file="*-Info.plist" mode="merge">
-            <false/>
-        </edit-config>
 	</platform>
 </widget>
